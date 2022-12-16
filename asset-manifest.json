@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ilon-mask/static/css/main.04835ee2.css",
+    "main.js": "/ilon-mask/static/js/main.83230eba.js",
+    "static/media/main-bg.jpg": "/ilon-mask/static/media/main-bg.c04e2063891705769f49.jpg",
+    "static/media/mask4.png": "/ilon-mask/static/media/mask4.e6725b61e1c3d300a3ac.png",
+    "static/media/MuseoSansCyrl-300.eot": "/ilon-mask/static/media/MuseoSansCyrl-300.11e4d9504b19f07eae57.eot",
+    "static/media/MuseoSansCyrl-300.ttf": "/ilon-mask/static/media/MuseoSansCyrl-300.550afaa1e4fc4138040b.ttf",
+    "static/media/MuseoSansCyrl-100.eot": "/ilon-mask/static/media/MuseoSansCyrl-100.a3e83693902fc78fab69.eot",
+    "static/media/MuseoSansCyrl-100.ttf": "/ilon-mask/static/media/MuseoSansCyrl-100.6bbc1512dd6038d65dba.ttf",
+    "static/media/MuseoSansCyrl-700.eot": "/ilon-mask/static/media/MuseoSansCyrl-700.bcee0ce6c84eb40b034c.eot",
+    "static/media/MuseoSansCyrl-700.ttf": "/ilon-mask/static/media/MuseoSansCyrl-700.3b299143ad51886fceba.ttf",
+    "static/media/MuseoSansCyrl-700.woff": "/ilon-mask/static/media/MuseoSansCyrl-700.22b121d683773a91e483.woff",
+    "static/media/MuseoSansCyrl-300.woff": "/ilon-mask/static/media/MuseoSansCyrl-300.ff371ead6a5e7a8c5fd2.woff",
+    "static/media/MuseoSansCyrl-100.woff": "/ilon-mask/static/media/MuseoSansCyrl-100.d232c270146168bfdc6f.woff",
+    "static/media/MuseoSansCyrl-700.woff2": "/ilon-mask/static/media/MuseoSansCyrl-700.ab3af2b97617cb6a3284.woff2",
+    "static/media/MuseoSansCyrl-300.woff2": "/ilon-mask/static/media/MuseoSansCyrl-300.69629eb70baae9e33c0f.woff2",
+    "static/media/MuseoSansCyrl-100.woff2": "/ilon-mask/static/media/MuseoSansCyrl-100.85012a074263edf7bfdb.woff2",
+    "index.html": "/ilon-mask/index.html",
+    "main.04835ee2.css.map": "/ilon-mask/static/css/main.04835ee2.css.map",
+    "main.83230eba.js.map": "/ilon-mask/static/js/main.83230eba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04835ee2.css",
+    "static/js/main.83230eba.js"
+  ]
+}
