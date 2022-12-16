@@ -1,0 +1,193 @@
+@import-normalize;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  overflow-x: hidden;
+  background: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header,
+section,
+footer,
+main {
+  width: 100%;
+}
+
+.container {
+  max-width: calc(114rem + 3rem);
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cmn-toggle-switch {
+  position: absolute;
+  z-index: 8000;
+  top: 1.5rem;
+  right: 0.6rem;
+  transform: translateX(.5rem);
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 4.7rem;
+  height: 4.7rem;
+  font-size: 0;
+  appearance: none;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  transition: background .3s ease-out;
+
+  @media (min-width: 1024px) {  
+    display: none;
+  }
+
+  &:focus {
+      outline: none;
+  }
+
+  span {
+      position: relative;
+      width: 3.5rem;
+      margin: auto;
+      display: block;
+      height: .3rem;
+      border-radius: .5rem;
+      background: #fff;
+
+      &::before,
+      &::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        display: block;
+        width: 100%;
+        height: .3rem;
+        border-radius: .5rem;
+        background: #fff;
+      }
+
+      &::before {
+        top: 1rem;
+      }
+
+      &::after {
+        bottom: 1rem;
+
+      }
+  }
+}
+
+.cmn-toggle-switch__htx {
+  width: 4.7rem;
+  height: 4.7rem;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: all 1s ease-out;
+
+  span {
+      transition: background .3s ease-out;
+
+      &::before,
+      &::after {
+          transition-duration: .3s, .3s;
+      }
+
+      &::before {
+          transition-property: top, transform;
+      }
+
+      &::after {
+          transition-property: bottom, transform;
+      }
+  }
+}
+ 
+.cmn-toggle-switch__htx.active {
+  position: absolute;
+  z-index: 8000;
+  width: 4.4rem;
+  height: 4.4rem;
+
+  span {
+      background: none;
+      width: 4rem;
+      right: .5rem;
+
+      &::before,
+      &::after {
+          background: #fff;
+          transition-delay: .3s;
+      }
+
+      &::before {
+          top: 0;
+          transform: rotate(45deg);
+      }
+
+      &::after {
+          bottom: 0;
+          transform: rotate(-45deg);
+      }
+  }
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 100';
+  src: url('./fonts/MuseoSansCyrl-100.eot');
+  src: url('./fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+      url('./fonts/MuseoSansCyrl-100.woff') format('woff'),
+      url('./fonts/MuseoSansCyrl-100.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  src: url('./fonts/MuseoSansCyrl-300.eot');
+  src: url('./fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+      url('./fonts/MuseoSansCyrl-300.woff') format('woff'),
+      url('./fonts/MuseoSansCyrl-300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  src: url('./fonts/MuseoSansCyrl-700.eot');
+  src: url('./fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/MuseoSansCyrl-700.woff2') format('woff2'),
+      url('./fonts/MuseoSansCyrl-700.woff') format('woff'),
+      url('./fonts/MuseoSansCyrl-700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
